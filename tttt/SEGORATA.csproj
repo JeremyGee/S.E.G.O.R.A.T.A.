@@ -8,8 +8,8 @@
     <ProjectGuid>{C58D1786-EE3E-4946-988E-E8D332003F3E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>tttt</RootNamespace>
-    <AssemblyName>tttt</AssemblyName>
+    <RootNamespace>SEGORATA</RootNamespace>
+    <AssemblyName>SEGORATA</AssemblyName>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
