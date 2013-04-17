@@ -7,24 +7,17 @@ A Super Epic Game of Risk And Tactical Awesomeness
 
 Current status: 1% done!
 
-- : Base todo
-| : Sub-todo
-] : Sub-sub-todo (indeed)
+Todo list(% = Done):
+% Basic idea
 
-# : Done
+% Set up github
+	%Push/pull scripts
 
+% map zooming/panning
 
-Todo list:
-# Basic idea
+% Player colours(8 of them)
 
-# Set up github
-	#Push/pull scripts
-
-# map zooming/panning
-
-# Player colours(8 of them)
-
-# Randomly chosen starting nations
+% Randomly chosen starting nations
 
 - Decide on the art style
 
