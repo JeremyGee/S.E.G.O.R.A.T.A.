@@ -1,3 +1,6 @@
+% 		= done
+anything else 	= not done
+
 % Basic idea
 
 % Set up github
