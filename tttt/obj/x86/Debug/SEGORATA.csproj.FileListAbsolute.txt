@@ -1,0 +1,10 @@
+C:\Users\Jeremy\documents\visual studio 2012\Projects\tttt\tttt\obj\x86\Debug\SEGORATA.csprojResolveAssemblyReference.cache
+C:\Users\Jeremy\documents\visual studio 2012\Projects\tttt\tttt\bin\WindowsGL\Debug\SDL.dll
+C:\Users\Jeremy\documents\visual studio 2012\Projects\tttt\tttt\bin\WindowsGL\Debug\SEGORATA.exe
+C:\Users\Jeremy\documents\visual studio 2012\Projects\tttt\tttt\bin\WindowsGL\Debug\SEGORATA.pdb
+C:\Users\Jeremy\documents\visual studio 2012\Projects\tttt\tttt\bin\WindowsGL\Debug\Lidgren.Network.dll
+C:\Users\Jeremy\documents\visual studio 2012\Projects\tttt\tttt\bin\WindowsGL\Debug\MonoGame.Framework.dll
+C:\Users\Jeremy\documents\visual studio 2012\Projects\tttt\tttt\bin\WindowsGL\Debug\OpenTK.dll
+C:\Users\Jeremy\documents\visual studio 2012\Projects\tttt\tttt\bin\WindowsGL\Debug\Tao.Sdl.dll
+C:\Users\Jeremy\documents\visual studio 2012\Projects\tttt\tttt\obj\x86\Debug\SEGORATA.exe
+C:\Users\Jeremy\documents\visual studio 2012\Projects\tttt\tttt\obj\x86\Debug\SEGORATA.pdb

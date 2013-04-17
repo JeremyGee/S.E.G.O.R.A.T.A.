@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 #endregion
 
-namespace tttt
+namespace SEGORATA
 {
 #if WINDOWS || LINUX
     /// <summary>
