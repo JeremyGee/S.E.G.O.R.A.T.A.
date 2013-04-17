@@ -1,4 +1,4 @@
-% 				= done
+% 		= done
 anything else 	= not done
 
 % Basic idea
