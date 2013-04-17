@@ -1,0 +1,10 @@
+c:\users\jeremy\documents\visual studio 2012\Projects\tttt\tttt\obj\x86\Debug\tttt.csprojResolveAssemblyReference.cache
+c:\users\jeremy\documents\visual studio 2012\Projects\tttt\tttt\bin\WindowsGL\Debug\SDL.dll
+c:\users\jeremy\documents\visual studio 2012\Projects\tttt\tttt\bin\WindowsGL\Debug\tttt.exe
+c:\users\jeremy\documents\visual studio 2012\Projects\tttt\tttt\bin\WindowsGL\Debug\tttt.pdb
+c:\users\jeremy\documents\visual studio 2012\Projects\tttt\tttt\bin\WindowsGL\Debug\Lidgren.Network.dll
+c:\users\jeremy\documents\visual studio 2012\Projects\tttt\tttt\bin\WindowsGL\Debug\MonoGame.Framework.dll
+c:\users\jeremy\documents\visual studio 2012\Projects\tttt\tttt\bin\WindowsGL\Debug\OpenTK.dll
+c:\users\jeremy\documents\visual studio 2012\Projects\tttt\tttt\bin\WindowsGL\Debug\Tao.Sdl.dll
+c:\users\jeremy\documents\visual studio 2012\Projects\tttt\tttt\obj\x86\Debug\tttt.exe
+c:\users\jeremy\documents\visual studio 2012\Projects\tttt\tttt\obj\x86\Debug\tttt.pdb

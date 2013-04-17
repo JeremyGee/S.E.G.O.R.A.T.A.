@@ -1,0 +1,16 @@
+Split individual nations with a " "
+Split the arguments of those nations with a ","
+Put spaces in names as "_"s.
+Argument 1: Nation name; this should be the same name as the .png file of the nation.
+Argument 2: The nation's top left corner's X position.
+Argument 3: The nation's top left corner's Y position.
+Argument 4: The index of the continent this nation belongs to.
+Argument 5: The names of the neighbouring nations. Split these with a ":".
+
+On the next line: Names of the continents,their A|D|S|T.
+
+Line 1 example:
+Au,216,153,1,Ag:Pt:Rg:Hg
+
+Line 2 example:
+Alkalimetals,1|1|2|0 Alkaline_Earth,2|2|0|0 Transition_Metals,7|8|4|2 Basic_Metals,3|2|4|1 Semimetals,2|2|3|0 Nonmetals,3|3|3|1 Halogens,1|1|2|0 Noble_Gasses,2|0|2|0 Lanthanides,3|3|3|1 Actinides,3|3|3|1
