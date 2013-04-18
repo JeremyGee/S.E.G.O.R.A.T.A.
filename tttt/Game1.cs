@@ -41,24 +41,15 @@ namespace SEGORATA
             Colours.Add(Color.FromNonPremultiplied(250, 175, 60, 255));     //orange
             Colours.Add(Color.FromNonPremultiplied(140, 90, 0, 255));       //brown
 
-            
-
-            Boolean[] hs = new Boolean[6];
-            hs[0] = true;
-            hs[1] = true;
-            hs[2] = true;
-            hs[3] = true;
-            hs[4] = true;
-            hs[5] = true;
-
-            String[] ns = new String[6];
-            ns[0] = "Reetbau1";
-            ns[1] = "Reetbau2";
-            ns[2] = "Reetbau3";
-            ns[3] = "Reetbau4";
-            ns[4] = "Reetbau5";
-            ns[5] = "Reetbau6";
-            Game = new rGame(this, hs, ns, true, "default");    //Create a new offlineGame instance. This is to be called whenever someone creates a new game.
+            //Make the list of players and start a game (Temporary code)
+            List<Player> ps = new List<Player>();
+            ps.Add(new Player(Game, "reetbau1", false, Colours[0]));
+            ps.Add(new Player(Game, "reetbau2", false, Colours[1]));
+            ps.Add(new Player(Game, "reetbau3", false, Colours[2]));
+            ps.Add(new Player(Game, "reetbau4", false, Colours[3]));
+            ps.Add(new Player(Game, "REETBAU5", false, Colours[4]));
+            ps.Add(new Player(Game, "reetbau6", false, Colours[5]));
+            Game = new rGame(this, ps, true, "default");    //Create a new offlineGame instance. This is to be called whenever someone creates a new game.
 
             base.Initialize();
         }

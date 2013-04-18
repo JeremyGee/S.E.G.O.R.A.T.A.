@@ -18,8 +18,7 @@ namespace SEGORATA
         public int sMoveY = 0;  //The amount of Y that the screen is panned
         public double sZoom = 1;   //The amount of zoom
 
-        Boolean[] isHuman;      //True is the player is human, false if it is an AI
-        String[] playerNames;   //Holds the names for the players
+        List<Player> pls;      //True is the player is human, false if it is an AI
 
         Boolean offline;        //This flag holds the value of whether or not the game is offline
 
@@ -27,34 +26,50 @@ namespace SEGORATA
 
         String[] continents;    //The continents and their worths; stored like this: "name,A|D|S|T"
 
-        public rGame(Game1 game, Boolean[] ishuman, String[] names, Boolean isOffline, String mapName)
+        public rGame(Game1 game, List<Player> players, Boolean isOffline, String mapName)
         {
             g = game;
 
-            isHuman = ishuman;
-            playerNames = names;
+            pls = players;
 
             offline = isOffline;
 
             String[] mPosA = File.ReadAllLines("maps\\" + mapName + "\\map.txt");
             String[] mPos = mPosA[0].Split(' ');
             continents = mPosA[1].Split(' ');
+
             foreach (String pos in mPos)
             {
+                String[] nNs = pos.Split(',')[4].Split(':');
+                Nation[] nN = new Nation[nNs.Length];
+                int i = 0;
+
+                //Get all neighbouring nation objects
+                foreach (Nation n in Nations)
+                {
+                    if(Array.IndexOf(nNs, n.name)>-1)
+                    {
+                        nN[i]=n;
+                        i++;
+                    }
+                }
+
+                //Add the actual nation. Huge function, I know.
                 Nations.Add(new Nation(this,                                        //Reference to rGame(this class)
                     int.Parse(pos.Split(',')[1]), int.Parse(pos.Split(',')[2]),     //Position
                     g.gT("maps\\" + mapName + "\\" + pos.Split(',')[0] + ".png"),   //Texture
                     int.Parse(pos.Split(',')[3]),                                   //Continent ID
-                    Color.White,                                                    //Colour
-                    pos.Split(',')[4].Split(':'), pos.Split(',')[0]));              //Neighbouring nations
+                    new Player(this, "none", false, Color.White),                   //Colour
+                    nN,                                                             //Neighbouring nations
+                    pos.Split(',')[0]));                                            //Nation name
             }
 
-            for (int i = 0; i < names.Length; i++)
+            for (int i = 0; i < pls.Count; i++)
             {
                 int rNation = g.r.Next(0, mPos.Length);
-                while (Nations[rNation].Colour!=Color.White)
+                while (Nations[rNation].Owner.colour!=Color.White)
                     rNation = g.r.Next(0, mPos.Length);
-                Nations[rNation].Colour = g.Colours[i];
+                Nations[rNation].Owner = players[i];
             }
         }
 
