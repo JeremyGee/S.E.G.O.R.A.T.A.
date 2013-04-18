@@ -21,20 +21,22 @@ anything else 	= not done
 - Make the pseudo turn-based system
 	|Networking!
 	|Notifications
+		]Ability to hide in tray when it's not your turn (Easy enough)
+		]Non-boring notification (i.e. not a lazy and boring balloon tool tip)
 
 - Troop placing
 	|Graphics for the different kinds of troops
 	|Ability to place troops
 	
 - Attacking
-	|Ability to select a neighbouring nation that isn't yours to invade - ability to zoom in on it
+	|Ability to select a neighbouring nation that isn't yours to invade - ability to zoom in on it and do:
 	|Tactics!
 		]Attacker and defender's troop objects
 		]Collision/landscape
 		]Realtime results once both players have readied
 	
 - Defending
-	|Graphical notification of an attack - ability to zoom in on it
+	|Graphical notification of an attack - ability to zoom in on it and do:
 	|Tactics!
 		]Attacker and defender's troop objects
 		]Collision/landscape
@@ -44,3 +46,30 @@ anything else 	= not done
 	|Think of as much things as we can whilst keeping it fair and tactical
 	|Add a global troop type: Technicians(Name to be changed?)
 	|Adding objects into nations as extra collision(i.e. walls)
+
+- AI
+	|Difficulty setting
+	|Play style setting
+	|Smartness
+		]Attacking the worst threat
+			}The person with the most attacking troops certainly
+			}The nearest person with actual ability and will to attack
+		]Defending by placing good walls/defense troops
+			}Finding bottleneck nations
+			}Defend edges of connected empire, if not only continents
+		]Take away continents
+			}Find the easiest path to a continent
+		]Know when to stop attacking and retreat
+			}One tactic could be: When all seems lost, keep attacking with A only, defend with S and V
+		]Good in-nation tactics
+			}Todo: add stuff here
+
+- Menu
+	|Start game
+		]Play random online game
+		]Play online with friends - after friend system
+		]Offline play
+	|Options
+
+- Friend system
+	|Profiles?
